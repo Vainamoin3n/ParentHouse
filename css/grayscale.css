@@ -129,12 +129,13 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/garden1.jpg") no-repeat bottom center scroll;
-  background-color: black;
 }
 
-.about img:hover {
-     opacity:0.8;
+#about::before{
+     background: url("../img/garden1.jpg") no-repeat bottom center scroll;
+     opacity:0.6;
+     background-color: black;
+	 background-size: contain;
 }
 
 .btn-circle {
