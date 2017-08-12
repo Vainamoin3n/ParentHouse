@@ -129,11 +129,11 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/garden1.jpg") no-repeat bottom center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/garden1.jpg") no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-color:rgba(255,255,255,0.6);
+  background-color: black;
   background-size: cover;
 }
 
