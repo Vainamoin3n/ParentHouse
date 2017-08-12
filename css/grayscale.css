@@ -129,13 +129,8 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-}
-
-#about::before{
-     background: url("../img/garden1.jpg") no-repeat bottom center scroll;
-     opacity:0.6;
-     background-color: black;
-	 background-size: contain;
+  background: url("../img/garden1.jpg") no-repeat bottom center scroll;
+  background-color:rgba(255,0,0,0.6)
 }
 
 .btn-circle {
