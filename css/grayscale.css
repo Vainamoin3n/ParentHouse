@@ -122,9 +122,9 @@ a {
       .masthead .intro-body .intro-text {
         font-size: 22px; } }
 
-.about {
+#about {
   display: table;
-  width: 100%;
+  width: 100%;S
   height: auto;
   padding: 200px 0;
   text-align: center;
