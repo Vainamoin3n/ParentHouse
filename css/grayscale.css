@@ -105,7 +105,7 @@ a {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: contain; }
+  background-size: cover; }
   .masthead .intro-body {
     display: table-cell;
     vertical-align: middle; }
@@ -130,8 +130,11 @@ a {
   text-align: center;
   color: white;
   background: url("../img/garden1.jpg") no-repeat bottom center scroll;
-  background-color:rgba(255,0,0,0.6);
-  background-size: contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-color:rgba(255,255,255,0.6);
+  background-size: cover;
 }
 
 .btn-circle {
