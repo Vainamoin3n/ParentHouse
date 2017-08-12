@@ -48,12 +48,14 @@ google.maps.event.addDomListener(window, 'resize', function() {
 function init() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+	var stPierre = {lat: 47.518864, lng: -3.129118};
+
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
         zoom: 15,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(47.518864, -3.129118), // ST Pierre
+        center: stPierre, // ST Pierre
 
         // Disables the default Google Maps UI components
         //disableDefaultUI: true,
@@ -181,10 +183,9 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     //var image = 'img/map-marker.svg';
-    var myLatLng = new google.maps.LatLng(40.6700, -3.129118);
     var beachMarker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
+        position: stPierre,
+        map: map
         //icon: image
     });
 }
