@@ -293,6 +293,10 @@ img::-moz-selection {
   background: transparent;
 }
 
+img {
+    image-orientation: from-image;
+}
+
 body {
   -webkit-tap-highlight-color: fade-out(white, .8);
 }
