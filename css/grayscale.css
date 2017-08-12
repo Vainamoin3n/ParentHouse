@@ -100,7 +100,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/loumi5.jpg") no-repeat bottom center scroll;
+  background: url("../img/beachsky.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -121,6 +121,21 @@ a {
         font-size: 100px; }
       .masthead .intro-body .intro-text {
         font-size: 22px; } }
+
+.about {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 200px 0;
+  text-align: center;
+  color: white;
+  background: url("../img/garden1.jpg") no-repeat bottom center scroll;
+  background-color: black;
+}
+
+.about img:hover {
+     opacity:0.8;
+}
 
 .btn-circle {
   font-size: 26px;
